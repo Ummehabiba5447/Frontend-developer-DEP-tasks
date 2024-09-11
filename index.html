@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real EState</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"  rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Scent <span class="text-warning">&</span> Serenity</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 m-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link" href="#products">Produtcs</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#miniature collection">Miniature Collection</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#question">Question</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link btn text-white bg-dark px-3 rounded-0 " href="Contact.html">Contct Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="perfume 2.jpeg" class="d-block w-100-height" alt="image1">
+            <div class="carousel-caption carousel">
+                <p>1 / 3</p>
+                <h5>LIMITED TIME OFFER <br> SALE <br><span class="span bg-danger">FLAT 30% OFF</span></h5>
+                <div class="mt-5 d-flex ">
+                    <input type="text" class="form-control search w-50 rounded-0  " id="floatinginput" placeholder="search....">
+                    <button class="btn btn-light btn-sm justify-content-md-end mx-2 px-3 rounded-0"><i class="fas fa-search"></i>Search</button>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img src="perfume 3.jpg" class="d-block w-100-height" alt="image1">
+            <div class="carousel-caption carousel">
+                <p>2 / 3</p>
+                <h5>Club de nuit<br> <span class="span text-danger">Your Fragnance is your</span> <br> Signature</h5>
+                <p><a href="#" class="btn btn-light btn-lg mt-3 rounded-0  ">Learn More</a></p>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <img src="perfume 3.webp" class="d-block w-100-height" alt="image1">
+            <div class="carousel-caption carousel">
+                <p>3 / 3</p>
+                <h5>Dior Perfumes</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequuntur facere hic nisi pariatur iste eum nobis distinctio dolore assumenda?</p>
+                <p><a href="#" class="btn btn-light btn-lg mt-3 rounded-0  ">Shop Now</a></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="icon">&larr;</span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="icon">&rarr;</span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+            <!-- <div class="col-md-4 z-1 position-absolute card-bottom card mb-3 card-color rounded-0 bg-dark" style="background: #000;">
+            <div class="row align-items-center ">
+             -->
+              <!-- <div class="col-md-9">
+                <div class="card-body">
+                  <h5 class="card-title text-light ">Card title</h5>
+                  <p class="card-text text-light">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-white">Last updated 3 mins ago</small></p>
+                </div>
+              </div> -->
+              <!-- <div class="col-md-3">
+                  <img src="44.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+            </div> -->
+
+          </div>
+      </div>        
+
+      <section class="container" style="margin-top: 100px; height: 1300px; " id="products">
+        <p class="pt-5">Popular</p>
+        <div class="d-flex">
+            <h2>Our Popular Products</h2>
+            <h6 class="ms-auto">Explore All <span class="arrow-icon">&rarr;</span></h6>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
+            <div class="col">
+                <div class="card border-0 rounded-0">
+                    <img src="man perfume.webp" class="card-img-top rounded-0" alt="image house">
+                    <div class="card-body">
+                        <p class="card-text text-muted">Pakistan</p>
+                        <div class="d-flex justify-content-center mt-3">
+                            <p class="mx-4 text-muted card-text"><i class="fa fa-bookmark"></i>bed</p>
+                            <p class="mx-4 text-muted card-text"><i class="fa fa-heart"></i>102k</p>
+                            <p class="mx-4 text-muted card-text"><i class="fa fa-cart-shopping"></i>Add to cart</p>
+                        </div>
+                        <div class="d-flex my-2">
+                          <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Shop Now</button>
+                          <h5 class="my-auto ms-auto ">Rs 6999</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+              <div class="card border-0 rounded-0">
+                  <img src="female perfume.jpeg" class="card-img-top rounded-0 " alt="image house" >
+                  <div class="card-body">
+                      <p class="card-text text-muted">Pakistan</p>
+                      <div class="d-flex justify-content-center mt-3">
+                          <p class="mx-4 text-muted card-text"><i class="fa fa-bookmark"></i>bed</p>
+                          <p class="mx-4 text-muted card-text"><i class="fa fa-heart"></i>230k</p>
+                          <p class="mx-4 text-muted card-text"><i class="fa fa-cart-shopping"></i>Add to cart</p>
+                      </div>
+                      <div class="d-flex my-2">
+                        <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Shop Now</button>
+                        <h5 class="my-auto ms-auto ">Rs 4999</h5>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col">
+            <div class="card border-0 rounded-0">
+                <img src="dior perfume.jpg" class="card-img-top rounded-0" alt="image house">
+                <div class="card-body">
+                    <p class="card-text text-muted">Pakistan</p>
+                    <div class="d-flex justify-content-center mt-3">
+                        <p class="mx-4 text-muted card-text"><i class="fa fa-bookmark"></i>bed</p>
+                        <p class="mx-4 text-muted card-text"><i class="fa fa-heart"></i>50k</p>
+                        <p class="mx-4 text-muted card-text"><i class="fa fa-cart-shopping"></i>Add to cart</p>
+                    </div>
+                    <div class="d-flex my-2">
+                      <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Shop Now</button>
+                      <h5 class="my-auto ms-auto "> Rs 5999</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col" style="">
+          <div class="card border-0 rounded-0">
+              <img src="perfume 3.webp" class="card-img-top rounded-0" alt="image house" height="245px">
+              <div class="card-body">
+                  <p class="card-text text-muted">Pakistan</p>
+                  <div class="d-flex justify-content-center mt-3">
+                      <p class="mx-4 text-muted card-text"><i class="fa fa-bookmark"></i>bed</p>
+                      <p class="mx-4 text-muted card-text"><i class="fa fa-heart"></i>30k</p>
+                      <p class="mx-4 text-muted card-text"><i class="fa fa-cart-shopping"></i>Add to cart</p>
+                  </div>
+                  <div class="d-flex my-2">
+                    <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Shop Now</button>
+                    <h5 class="my-auto ms-auto "> Rs 2999</h5>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col">
+        <div class="myimg card border-0 rounded-0">
+            <img src="Wall_landscape_DT.avif"  class="" alt="image house" height="245px">
+            <div class="card-body">
+                <p class="card-text text-muted">Pakistan</p>
+                <div class="d-flex justify-content-center mt-3">
+                    <p class="mx-4 text-muted card-text"><i class="fa fa-bookmark"></i>bed</p>
+                    <p class="mx-4 text-muted card-text"><i class="fa fa-heart"></i>40k</p>
+                    <p class="mx-4 text-muted card-text"><i class="fa fa-cart-shopping"></i>Add to cart</p>
+                </div>
+                <div class="d-flex my-2">
+                  <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Shop Now</button>
+                  <h5 class="my-auto ms-auto "> Rs 7999</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+      <div class="card border-0 rounded-0">
+          <img src="valentino 2.jpg" class="" alt="image house" height="245px">
+          <div class="card-body">
+              <p class="card-text text-muted">Pakistan</p>
+              <div class="d-flex justify-content-center mt-3">
+                  <p class="mx-4 text-muted card-text"><i class="fa fa-bookmark"></i>bed</p>
+                  <p class="mx-4 text-muted card-text"><i class="fa fa-heart"></i>55k</p>
+                  <p class="mx-4 text-muted card-text"><i class="fa fa-cart-shopping"></i>Add to cart</p>
+              </div>
+              <div class="d-flex my-2">
+                <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Shop Now</button>
+                <h5 class="my-auto ms-auto "> Rs 3999</h5>
+              </div>
+          </div>
+      </div>
+  </div>
+        </div>
+    
+    </section>
+
+    <section class="bg-dark" style="margin-top: -15%;">
+      <div class="container pt-5">
+        <div class="row" style="margin-top: 25%;">
+        <div class="col-lg-4">
+          <h2 style="color: #b5b5b5;">Javeria Rashid</h2>
+          <h2 style="color: #b5b5b5;">Umm e Habiba</h2>
+          <p style="color: #b5b5b5;">Founder Salord</p>
+        </div>
+        <div class="col-lg-5 mb-5">
+          <h6 class="lh-lg" style="color: #b5b5b5;"> &laquo; Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptate dolorum repellat, atque, quos cumque, nulla eius magnam enim inventore velit quidem odio sit sapiente architecto quisquam est rerum deserunt?</h6>
+        </div>
+      </div>
+      <hr class="text-light">
+      <div class="container mt-5 pb-5">
+        <div class="row text-center">
+          <div class="col-md-3 col-sm-6">
+            <img src="j._logo-removebg-preview.png" alt="home6" style="width: 55%;">
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <img src="gucci_logo-removebg-preview (1).png" alt="home6" style="width: 55%;">
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <img src="ck_logo-removebg-preview.png" alt="home6" style="width: 55%;">
+          </div>
+          <!-- <div class="col-md-3 col-sm-6">
+            <img src="home 6.jpeg" alt="home6" style="width: 55%;">
+          </div> -->
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="about section-padding" style="margin-top: 40px;" id="services">
+    <div class="text-center pb-5 ">
+      <h2>Our Services</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-12 col-12">
+          <div class="d-flex">
+            <div class="about-img mx-2">
+              <img src="scent 1.webp" alt="about image" class="img-fluid h-100 mt-4 ">
+            </div>
+            <div class="about-img">
+              <img src="scent 2.webp" alt="about image" class="img-fluid h-75 ">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-12 col-12 ps-lg-5 mt-md-5" style="margin-top: 40px;">
+        <div class="about-text">
+          <h2>Comfort is Our <br> Top Priority for Your</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, facilis enim, rerum non recusandae et veritatis quia officia atque eaque dolor maxime vel voluptatem molestiae cupiditate ipsa ex quam obcaecati iste dolore? Neque tempore assumenda placeat dolorum odit harum amet voluptas totam. Sit adipisci perferendis praesentium ut, inventore porro ducimus fugiat eveniet, delectus fuga distinctio laborum? Deleniti dolorum a neque, aliquid commodi nesciunt aspernatur perferendis quidem nihil alias, repellendus consequuntur cumque quasi. Nobis tempore optio sequi aperiam at non dolor tenetur accusantium eaque quisquam, temporibus numquam sint id impedit fugit nisi nulla reiciendis itaque quis nemo. Velit cum tempora iste!</p>
+          <a href="#" class="btn text-white bg-dark px-3 rounded-0">See More</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" style="margin-top: 100px;" id="blog">
+    <p class="pt-5">Blogs</p>
+    <div class="d-flex">
+        <h2>Latest Perfumes Information</h2>
+      <button class="btn text-white bg-dark px-4 btn-md ms-auto rounded-0">See All Articles</button>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
+        <div class="col">
+            <div class="card border-0 rounded-0">
+                <img src="valentino 2.jpg" class="card-img-top rounded-0" alt="image house">
+                <div class="card-body">
+                  <p class="card-text text-muted">05 March 2024</p>
+                    <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, corrupti!</p>
+                    
+                      <button class="btn text-primary px-4 btn-lg rounded-0" style="background: #d4e9ff;">Read More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+          <div class="card border-0 rounded-0">
+              <img src="sher dil 1.png" class="card-img-top rounded-0" alt="image house">
+              <div class="card-body">
+                <p class="card-text text-muted">05 March 2024</p>
+                  <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, corrupti!</p>
+                  
+                    <button class="btn text-primary px-4 btn-lg rounded-0" style="background: #d4e9ff;">Read More</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="col">
+        <div class="card border-0 rounded-0">
+            <img src="red perfume.jpg" class="card-img-top rounded-0" alt="image house">
+            <div class="card-body">
+                <p class="card-text text-muted">05 March 2024</p>
+                <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, corrupti!</p>
+                
+                  <button class="btn text-primary px-4 btn-lg rounded-0" style="background: #d4e9ff;">Read More</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</section>
+
+
+
+<section class="about section-padding" style="margin-top: 40px;" id="question">
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-md-12 col-12 mt-md-3">
+      <div class="about-text">
+        <p>Question</p>
+        <h2>Frequently Asked <br> Questions</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, facilis enim, rerum non recusandae et veritatis quia officia atque eaque dolor maxime vel voluptatem molestiae cupiditate ipsa ex quam obcaecati iste dolore? Neque tempore assumenda placeat dolorum odit harum amet voluptas totam. Sit adipisci perferendis praesentium ut, inventore porro ducimus fugiat eveniet</p>
+        <a href="#" class="btn text-white bg-dark px-3 rounded-0">See More</a>
+      </div>
+      </div>
+
+      <div class="accordion col-lg-7 mt-3" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Accordion Item #1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Accordion Item #2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container" style="margin-top: 100px;" id="miniature collection">
+  <p class="pt-5">Miniature</p>
+  <div class="d-flex">
+      <h2>Miniature Collection</h2>
+      <h6 class="ms-auto">Explore All <span class="arrow-icon">&rarr;</span></h6>
+  </div>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-2">
+      <div class="col">
+          <div class="card border-0 rounded-0">
+              <img src="collection 1.webp" class="card-img-top rounded-0" alt="image house">
+              <div class="card-body">
+                  <p class="card-text text-muted">Pakistan</p>
+                  <div class="d-flex my-2">
+                    <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Shop Now</button>
+                    <h5 class="my-auto ms-auto ">Rs 6999</h5>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="col">
+        <div class="card border-0 rounded-0">
+            <img src="collection 2.webp" class="card-img-top rounded-0" alt="image house">
+            <div class="card-body">
+                <p class="card-text text-muted">Pakistan</p>
+                <div class="d-flex my-2">
+                  <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Shop Now</button>
+                  <h5 class="my-auto ms-auto ">Rs 4999</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col">
+      <div class="card border-0 rounded-0">
+          <img src="collection 3.webp" class="card-img-top rounded-0" alt="image house">
+          <div class="card-body">
+              <p class="card-text text-muted">Pakistan</p>
+              <div class="d-flex my-2">
+                <button class="btn btn-lg text-white bg-dark px-4 rounded-0">Shop Now</button>
+                <h5 class="my-auto ms-auto "> Rs 5999</h5>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+
+</section>
+
+<footer class="bg-dark bg-footer" style="margin-top: 80px;" id="About Us">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h5 class="text-light">About Us</h5>
+        <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ipsa culpa exercitationem magni. Accusantium blanditiis quam deserunt officiis rem laborum?</p>
+        <p class="text-light"><i class="fa fa-location"></i>123 456 897</p>
+        <p class="text-light"><i class="fa fa-phone"></i>(+92)3123456789</p>
+        <p class="text-light"><i class="fa fa-envelope"></i>abcd@gmail.com</p>
+      </div>
+      <div class="col-lg-3">
+        <h5 class="text-light">Quick Links</h5>
+        <ul class="list-unstyled">
+        <li><a href="#">Home</a></li>
+        <li><a href="#products">Popular</a></li>
+        <li><a href="#Services">Services</a></li>  
+        <li><a href="#question">Reviews</a></li> 
+        <li><a href="#blog">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>  
+      </div>
+      <div class="col-lg-3">
+        <h5 class="text-light">Stay Connected</h5>
+        <ul class="list-unstyled">
+          <i><a href="#"><i class="fab fa-facebook"></i>Facebook</a></i>
+          <i><a href="#"><i class="fab fa-linkedin"></i>Linkedin</a></i>
+          <i><a href="#"><i class="fab fa-instagram"></i>Instagram</a></i>
+          <i><a href="#"><i class="fab fa-twitter"></i>Twitter</a></i>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="text-center text-light ">
+          Copyright &copy; 2024 <a href="#">Salord</a> All Right Reserved.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
